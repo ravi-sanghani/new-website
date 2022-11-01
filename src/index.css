@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gilroy-Medium";
+
+  src: url(./assets/gilroy/Gilroy-Medium.ttf);
+}
+@font-face {
+  font-family: "Roobert-Regular";
+
+  src: url(./assets/Roobert/Regular/Roobert\ TWHINT\ Regular.ttf);
+}
+
+@font-face {
+  font-family: "Termina";
+
+  src: url(./assets/Termina/Termina\ W00\ Demi.ttf);
+}
+
+* {
+  font-family: "Gilroy-Medium";
+  color: black;
+}
+
+/* .Roobert{
+    font-family: "Roobert-Regular";
+ }  */
+
+.Services {
+  font-family: "Roobert-Regular";
+}
+
+.Certificate {
+  font-family: "Roobert-Regular";
+}
+
+.active_class {
+  color: #7b3fe4;
+}
+
+.Home {
+  font-family: "Termina";
+}
+
+.Resources {
+  font-family: "Roobert-Regular";
+}
